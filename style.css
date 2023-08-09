@@ -1,0 +1,187 @@
+/* Color: #2B9DF4
+
+Font: Orbitron, Jura */
+
+
+*{
+    font-family: 'Jura', sans-serif;
+}
+
+
+p{
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #2B9DF4
+}
+
+/* CSS NAV */
+
+.icon-custom{
+    color: white;
+    font-size: 50px;
+}
+
+/* FINE CSS NAV */
+
+/* CSS HEADER */
+
+
+.titolo{
+    font-size: 100px;
+}
+
+.header-custom{
+    background: radial-gradient(rgba(255, 255, 255, 0), black),  url(./media/moon.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    position: relative;
+    
+
+
+}
+
+.arrow-down{
+    position: absolute;
+    bottom: 40px;
+    font-size: 45px;
+    color: rgb(43, 157, 244);
+    animation-name: arrow-down;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow-down{
+    from{opacity: 0; bottom: 30%;} 
+    to{ opacity: 1; bottom: 23%; }
+}
+
+/* FINE CSS HEADER */
+
+/* CSS PRIMA SECTION */
+
+
+.timer-custom{
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+.border-custom{
+    border-bottom: solid 2px rgb(43, 157, 244);
+}
+
+
+/* FINE CSS PRIMA SECTION */
+
+/* INIZIO CSS SECONDA SECTION */
+
+.img-custom{
+    background-image: url(./media/moon2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* FINE CSS SECONDA SECTION */
+
+/* INIZIO CSS TERZA SECTION */
+
+.icon-custom2{
+    color: rgb(43, 157, 244);
+    font-size: 30px;
+    
+}
+
+
+.h-custom{
+    min-height: 100vh;
+}
+
+/* INIZIO CSS QUARTA SECTION */
+
+.img-custom2{
+    background-image: url(./media/missile-2027068_1280.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 100vh;
+}
+
+/* FINE QUARTA SECTION */
+
+/* INIZIO QUINTA SECTION  */
+
+
+.p-custom{
+    color: grey;
+}
+
+.button-custom {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #2B9DF4;
+    padding: 0;
+    box-sizing: content-box;
+    border: 2px solid transparent;
+}
+
+.button-custom::before, .button-custom::after, span::before, span::after {
+    display: block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+
+.button-custom::before {
+    top: -2px;
+    left: -2px;
+    border-top: 2px solid #2B9DF4;
+    border-left: 2px solid #2B9DF4;
+}
+.button-custom::after {
+    top: -2px;
+    right: -2px;
+    border-top: 2px solid #2B9DF4;
+    border-right: 2px solid #2B9DF4;
+}
+span::before {
+    bottom: -2px;
+    left: -2px;
+    border-bottom: 2px solid #2B9DF4;
+    border-left: 2px solid #2B9DF4;
+}
+span::after {
+    bottom: -2px;
+    right: -2px;
+    border-bottom: 2px solid #2B9DF4;
+    border-right: 2px solid #2B9DF4;
+}
+
+/* FINE QUINTA SECTION */
+
+
+/* SESTA ED ULTIMA SECTION */
+
+
+
+.img-custom3{
+    background-image: url(./media/sunrise-1765027_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-border{
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(0.25turn , black, #2b9df4, black);
+    border-image-slice: 7 ;
+    width: 100%;
+
+}
+
